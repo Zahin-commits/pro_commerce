@@ -58,7 +58,7 @@ export default function page() {
         duration:0.3,
         delay:1.4,
         onComplete:()=>{
-        //  router.push('/card')
+         router.push('/card')
         console.log("done")
         }
       })
