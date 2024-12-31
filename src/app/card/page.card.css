@@ -1,0 +1,27 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background-color: #a4b1f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card{
+    height: 200px;
+    width: 300px;
+ background-image: url('/card_img.png');
+ background-position: center;
+ background-size: cover;
+ scale: 1.5;
+}
+
+
+@media (max-width:500px) {
+    .card{
+        scale: 1;
+    }
+}
