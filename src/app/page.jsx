@@ -10,17 +10,17 @@ import Item from './components/Item';
 
 export default function Home() {
   const router = useRouter();
-  // useGSAP(()=>{
-  //   gsap.to(".decoy .circle",{
-  //     height:"250vh",
-  //     width:"250vh",
-  //     delay:2,
-  //     duration:1,
-  //     onComplete:()=>{
-  //         router.push('/surprise')
-  //     }
-  //  })
-  // })
+  useGSAP(()=>{
+    gsap.to(".decoy .circle",{
+      height:"250vh",
+      width:"250vh",
+      delay:2,
+      duration:1,
+      onComplete:()=>{
+          router.push('/surprise')
+      }
+   })
+  })
   return (
     <div className="decoy">
       <div className='home'>
