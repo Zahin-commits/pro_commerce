@@ -16,7 +16,7 @@ export default function page() {
         opacity:1
       }).from(".text-box1 h2 .char",{
         y:50,
-        delay:0.5,
+        // delay:0.5,
         duration:0.3,
         stagger:0.04,
         ease: "power3.out"
@@ -58,7 +58,9 @@ export default function page() {
         duration:0.3,
         delay:1.4,
         onComplete:()=>{
-         router.push('/card')
+        //  router.replace('/card')
+        //  router.push('/card',undefined, { shallow: false })
+        window.location.href = "/card";
         console.log("done")
         }
       })

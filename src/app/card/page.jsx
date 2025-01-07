@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// 'use client'
 import './page.card.css'
 import React from 'react'
 
@@ -14,9 +14,9 @@ export default function page() {
            </div>
       </div>
       <div className="text-container">
-        {/* <p id="head">Happy Birthday</p>
+        <p id="head">Happy Birthday</p>
         <p>I hope your special day will bring you lots of happiness, love, and fun. You deserve them a lot. Enjoy!</p>
-        <p>Hope your day goes great!</p> */}
+        <p>Hope your day goes great!</p>
       </div>
     </div>
     </div>

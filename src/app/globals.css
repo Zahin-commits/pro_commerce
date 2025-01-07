@@ -1,15 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
 *{
   padding: 0px;
   margin: 0px;
   font-family: sans-serif;
   box-sizing: border-box;
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
 }
 
+body{
+  background-color: #F7F7F7;
+  height: 100vh;
+}
 .decoy{
   height: 100vh;
   width: 100vw;
+}
+
+.decoy .home{
+  height: 100vh;
+  width: 40vw; 
+  min-width: 500px;
   position: relative;
   overflow: hidden;
+  margin: auto;
+  /* border: 2px solid red; */
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .decoy .circle{
@@ -21,4 +41,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width:500px) {
+  /* body{
+    background-color: white;
+  } */
+  .decoy .home{
+    width: 100vw;
+    min-width: 100vw;
+    /* box-shadow: none; */
+  }
 }
