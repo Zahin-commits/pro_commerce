@@ -1,8 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 .container{
     height: 100vh;
     width: 100vw;
     color: white;
     background-color: #a4b1f9;
+    /* background-color: rgb(80, 80, 80); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,9 +36,15 @@
     background-color: #ffffff;
 }
 .card .text-container {
-    width: 80%;
-    height: 80%;
+    color: #CC3D3C;
+    width: 100%;
+    height: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid #F5EFDD;
+    background-color: #fff;
 }
 .strikethrough {
     text-decoration: line-through;
@@ -41,23 +52,31 @@
 .card .text-container #head {
     font-family: 'Nobile', sans-serif;
     font-size: 1.5em;
+    margin: 0px;
     /* margin: 60px auto 60px auto; */
 }
 .card p {
     font-size: 1.1em;
     line-height: 1.4;
-    font-family: 'Nobile';
-    color: #331717;
-    font-style: italic;
-    text-align: center;
-    margin-block: 10px;
+  font-family: "Nunito", sans-serif;
+  /* font-family: 'Nobile'; */
+    /* color: #331717; */
+    /* font-style: italic; */
+    text-align: justify;
+    margin: 9px 15px;
 }
+
+.card p.ending{
+ text-align: right;
+ margin-block: 2px;
+}
+
 .card .front {
     position: absolute;
     width: 100%;
     height: 100%;
     /* margin-top: 10px; */
-    /* margin: 0px; */
+    margin: 0px;
     /* border: 10px solid #ffffff; */
     backface-visibility: hidden;
     /* background-color: #9612eb; */
@@ -66,6 +85,7 @@
     background-size: contain;
     transform-style: preserve-3d;
     transform-origin: 50% 100%;
+    /* transform: perspective(1300px) rotateX(-160deg); */
     transform: perspective(1300px) rotateX(0deg);
     transition: all 0.8s ease-in-out;
 }
@@ -85,11 +105,12 @@
     /* border: 10px solid #f56f75; */
     /* border: 10px solid #ffffff; */
     /* margin-top: 10px; */
-    /* margin: 0px; */
+    margin: 0px;
     backface-visibility: visible;
     /* filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5)); */
     transform-style: preserve-3d;
     transform-origin: 50% 100%;
+    /* transform: perspective(1300px) rotateX(-160deg); */
     transform: perspective(1300px) rotateX(0deg);
     transition: all 0.8s ease-in-out;
     background-color: #ffffff;
@@ -116,5 +137,10 @@
         height: 140px; */
         width: 305px;
         height: 204px;
+    }
+
+    .card p{
+        font-size: 13px;
+        z-index: 3;
     }
 }

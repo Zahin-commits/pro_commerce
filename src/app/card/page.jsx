@@ -14,11 +14,52 @@ export default function page() {
            </div>
       </div>
       <div className="text-container">
-        <p id="head">Happy Birthday</p>
-        <p>I hope your special day will bring you lots of happiness, love, and fun. You deserve them a lot. Enjoy!</p>
-        <p>Hope your day goes great!</p>
+       {/* <p id="head">Happy Birthday</p>
+         <p>I hope your special day will bring you lots of happiness, love, and fun. You deserve them a lot. Enjoy!</p>
+        <p>Hope your day goes great!</p> */}
+        <p>Hey there, Komi!
+
+If you’re reading this, I’m so glad that my wishes have reached you. Honestly, it’s not easy to put into words how much I appreciate having such a kind and wonderful friend like you, Komi. </p>
+
+<p>I truly hope this birthday brings you nothing but happiness, laughter, and great memories. You deserve all the best things life has to offer, and I’m sure this year will be full of amazing moments for you, Komi.</p>
+
+<p>I won’t take up too much of your time—you’ve got celebrating to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.</p>
+
+<p className='ending'>Your friend,</p>
+<p className='ending'>-Zahin</p>
       </div>
     </div>
     </div>
   )
 }
+
+
+/* 
+Hey there!
+
+If you’re reading this, I’m over the moon that my wishes have found their way to you. Honestly, I’ve been struggling to find the right words because no words feel enough to celebrate someone as amazing and kind-hearted as you.
+
+All I truly wish is for this special day of yours to overflow with joy, laughter, and unforgettable moments. You deserve every bit of happiness in the world and so much more.
+
+I won’t keep you long—you’ve got a birthday to enjoy! Just know that my heart is sending you the warmest hugs and the happiest wishes.
+
+Wishing you the most wonderful birthday ever!
+
+Your friend always,
+Zahin
+
+
+
+Here’s your updated letter with her pet name included:
+
+Hey there, Komi!
+
+If you’re reading this, I’m so glad that my wishes have reached you. Honestly, it’s not easy to put into words how much I appreciate having such a kind and wonderful friend like you, Komi.
+
+I truly hope this birthday brings you nothing but happiness, laughter, and great memories. You deserve all the best things life has to offer, and I’m sure this year will be full of amazing moments for you, Komi.
+
+I won’t take up too much of your time—you’ve got celebrating to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.
+
+Your friend,
+Zahin
+*/
