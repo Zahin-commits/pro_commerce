@@ -6,7 +6,15 @@ export default function page() {
   return (
     <div className='container'> 
      <div className="card">
-      <div className="back"></div>
+      <div className="back">
+        <div className="back_text-container">
+           <p className='v'>I won’t take up too much of your time—you’ve got celebrating to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.</p>
+
+            <p className='ending v'>Your friend,</p>
+            <p className='ending v'>-Zahin</p>
+        </div>
+     
+      </div>
       <div className="front">
         <div className="imgset">
              {/* <!-- <img width="100%" src="https://1.bp.blogspot.com/-Mgj9-rbs65E/XfMoPSD5gtI/AAAAAAAAURk/NBokE2gSS2cTSJ2em5lZ5hJDuTtRN7UVwCLcBGAsYHQ/s1600/2713997.png"> --> */}
@@ -23,10 +31,10 @@ If you’re reading this, I’m so glad that my wishes have reached you. Honestl
 
 <p>I truly hope this birthday brings you nothing but happiness, laughter, and great memories. You deserve all the best things life has to offer, and I’m sure this year will be full of amazing moments for you, Komi.</p>
 
-<p>I won’t take up too much of your time—you’ve got celebrating to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.</p>
+<p className='h'>I won’t take up too much of your time—you’ve got celebrating to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.</p>
 
-<p className='ending'>Your friend,</p>
-<p className='ending'>-Zahin</p>
+<p className='ending h'>Your friend,</p>
+<p className='ending h'>-Zahin</p>
       </div>
     </div>
     </div>
