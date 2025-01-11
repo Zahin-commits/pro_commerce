@@ -1,4 +1,5 @@
 // 'use client'
+import Link from 'next/link'
 import './page.card.css'
 import React from 'react'
 
@@ -8,10 +9,13 @@ export default function page() {
      <div className="card">
       <div className="back">
         <div className="back_text-container">
-           <p className='v'>I won’t take up too much of your time—you’ve got celebrating to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.</p>
+          <p className='v' >amazing moments for you.</p>
+           <p className='v'> I won’t take up too much of your time—you’ve got a celebration to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.</p>
 
             <p className='ending v'>Your friend,</p>
             <p className='ending v'>-Zahin</p>
+ <Link className='btn v' href={'/profilePic'} >Click Me</Link>
+
         </div>
      
       </div>
@@ -29,12 +33,13 @@ export default function page() {
 
 If you’re reading this, I’m so glad that my wishes have reached you. Honestly, it’s not easy to put into words how much I appreciate having such a kind and wonderful friend like you, Komi. </p>
 
-<p>I truly hope this birthday brings you nothing but happiness, laughter, and great memories. You deserve all the best things life has to offer, and I’m sure this year will be full of amazing moments for you, Komi.</p>
+<p>I truly hope this birthday brings you nothing but happiness, laughter, and great memories. You deserve all the best things life has to offer, and I’m sure this year will be full of <span className='h' >amazing moments for you.</span> </p>
 
-<p className='h'>I won’t take up too much of your time—you’ve got celebrating to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.</p>
+<p className='h'>I won’t take up too much of your time—you’ve got a celebration to do! Just know that I’m wishing you the happiest birthday from the bottom of my heart.</p>
 
 <p className='ending h'>Your friend,</p>
 <p className='ending h'>-Zahin</p>
+ <Link className='btn h' href={'/profilePic'} >Click Me</Link>
       </div>
     </div>
     </div>
