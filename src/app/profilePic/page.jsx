@@ -18,8 +18,8 @@ const page = () => {
   }
   return (
     <div id='profile_pics'>
-      <h1>Click on any Picture to down</h1>
-      <p>unfortunately I don't any gits for ya, So I made some profile pics. I hope you will like them.</p>
+      <h1>Click on any Picture to download</h1>
+      <p>Unfortunately I don't have any gits for ya, So I made some profile pics. I hope you will like them.</p>
       <div className="img_container">
         {/* <img onClick={()=>{handleDownload("https://images.pexels.com/photos/28406651/pexels-photo-28406651/free-photo-of-historic-armenian-church-on-akdamar-island-van.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")}} src="https://images.pexels.com/photos/28406651/pexels-photo-28406651/free-photo-of-historic-armenian-church-on-akdamar-island-van.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
 

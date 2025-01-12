@@ -1,9 +1,18 @@
-// 'use client'
+'use client'
 import Link from 'next/link'
 import './page.card.css'
 import React from 'react'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 export default function page() {
+  useGSAP(()=>{
+     gsap.to(".container .card",{
+      opacity:1,
+      duration:2,
+      ease: "power3.out"
+     })
+  })
   return (
     <div className='container'> 
      <div className="card">
