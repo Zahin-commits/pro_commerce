@@ -24,6 +24,7 @@ h2{
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0 82%);
     width: 100vw;
     text-align: center;
+    margin-inline: 0px;
 }
 
 @media (max-width:500px) {

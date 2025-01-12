@@ -69,7 +69,7 @@ export default function page() {
     <div className='container'>
       <div className="text-box1">
         <h2>Hey there girl</h2>
-        <h2>isnt this your</h2>
+        <h2>isn't this your</h2>
         <h2>birthday?</h2>
       </div>
       <div className="text-box2">
