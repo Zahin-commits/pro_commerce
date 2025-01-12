@@ -15,7 +15,7 @@ export default function Home() {
       height:"250vh",
       width:"250vh",
       delay:2,
-      duration:1,
+      duration:2,
       onComplete:()=>{
           router.push('/surprise')
       }

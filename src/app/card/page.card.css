@@ -180,6 +180,7 @@
         width: 305px;
         height: 204px;
         margin-top: 80px;
+        overflow: visible;
     }
     
     .card .text-container {
